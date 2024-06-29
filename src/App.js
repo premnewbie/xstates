@@ -59,7 +59,7 @@ function App() {
         <option value='Select City' disabled>Select City</option>
         {cityList?.map((city) => (<option value={city}>{city}</option>))}
       </select>}
-      {selectedCountry && selectedState && selectedCity && <p>You Selected {selectedCity}, {selectedState}, {selectedCountry}</p>}
+      {selectedCountry && selectedState && selectedCity && <p>You selected {selectedCity}, {selectedState}, {selectedCountry}</p>}
     </div>
   );
 }
